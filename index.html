@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Mobile App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 h-screen flex flex-col">
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-500 text-white p-4 flex justify-between">
+        <span class="text-lg font-bold">My App</span>
+        <button onclick="showScreen('home')" class="px-3">Home</button>
+        <button onclick="showScreen('profile')" class="px-3">Profile</button>
+    </nav>
+
+    <!-- Screens -->
+    <div id="home" class="screen p-6 flex-1 flex justify-center items-center"> 
+        <h1 class="text-2xl font-semibold">Welcome to the Home Screen</h1>
+    </div>
+    <div id="profile" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+        <h1 class="text-2xl font-semibold">Profile Page</h1>
+    </div>
+
+    <script>
+        function showScreen(screenId) {
+            document.querySelectorAll('.screen').forEach(screen => {
+                screen.classList.add('hidden');
+            });
+            document.getElementById(screenId).classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
