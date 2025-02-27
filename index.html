@@ -9,9 +9,9 @@
 <body class="bg-gray-100 h-screen flex flex-col">
     <!-- Navigation Bar -->
     <nav class="bg-blue-500 text-white p-4 flex justify-between">
-        <span class="text-lg font-bold">My App</span>
-        <button onclick="showScreen('home')" class="px-3">Home</button>
         <button onclick="showScreen('profile')" class="px-3">Profile</button>
+        <button onclick="showScreen('home')" class="px-3">Sensei</button>
+        <button onclick="showScreen('setting')" class="px-3">Settings</button>
     </nav>
 
     <!-- Screens -->
@@ -19,16 +19,31 @@
         <h1 class="text-2xl font-semibold">HIII ELLEEE I LOVE YOUUU</h1>
     </div>
     <div id="profile" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
-        <h1 class="text-2xl font-semibold">Profile Page</h1>
+        <h1 class="text-2xl font-semibold">Profile</h1>
+    </div>
+    <div id="setting" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+        <h1 class="text-2xl font-semibold">Setting</h1>
+    </div>
+    <div id="track" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+        <h1 class="text-2xl font-semibold">Track</h1>
+    </div>
+    <div id="sensei" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+        <h1 class="text-2xl font-semibold">Sensei</h1>
+    </div>
+    <div id="meal" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+        <h1 class="text-2xl font-semibold">Meal</h1>
+    </div>
+    <div id="content" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+        <h1 class="text-2xl font-semibold">Content</h1>
     </div>
 
     <!-- Bottom Navigation Bar -->
     <div class="bg-white shadow-md fixed bottom-0 left-0 w-full flex justify-around p-4">
         <button onclick="showScreen('home')" class="text-gray-600">Home</button>
-        <button onclick="showScreen('profile')" class="text-gray-600">Profile</button>
-        <button onclick="showScreen('settings')" class="text-gray-600">Settings</button>
-        <button onclick="showScreen('notifications')" class="text-gray-600">Notifications</button>
-        <button onclick="showScreen('messages')" class="text-gray-600">Messages</button>
+        <button onclick="showScreen('track')" class="text-gray-600">Track</button>
+        <button onclick="showScreen('sensei')" class="text-gray-600">Sensei</button>
+        <button onclick="showScreen('meal')" class="text-gray-600">Meal</button>
+        <button onclick="showScreen('content')" class="text-gray-600">Content</button>
     </div>
 
     <script>
