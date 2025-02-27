@@ -6,7 +6,7 @@
     <title>Mock Mobile App</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 h-screen flex flex-col">
+<body class="bg-gray-100 h-screen flex flex-col overflow-hidden">
     <!-- Navigation Bar -->
     <nav class="bg-blue-500 text-white p-4 flex justify-between">
         <button onclick="showScreen('profile')" class="px-3">Profile</button>
@@ -15,29 +15,29 @@
     </nav>
 
     <!-- Screens -->
-    <div id="home" class="screen p-6 flex-1 grid gap-4 grid-cols-2 grid-rows-3"> 
-        <div class="col-span-2 bg-white p-6 shadow rounded-lg flex justify-center items-center">Box 1</div>
-        <div class="bg-white p-6 shadow rounded-lg flex justify-center items-center">Box 2</div>
-        <div class="bg-white p-6 shadow rounded-lg flex justify-center items-center">Box 3</div>
-        <div class="bg-white p-6 shadow rounded-lg flex justify-center items-center">Box 4</div>
-        <div class="bg-white p-6 shadow rounded-lg flex justify-center items-center">Box 5</div>
+    <div id="home" class="screen p-4 flex-1 grid gap-3 grid-cols-2 grid-rows-3 h-full"> 
+        <div class="col-span-2 bg-white p-4 shadow rounded-lg flex justify-center items-center h-1/4">Box 1</div>
+        <div class="bg-white p-4 shadow rounded-lg flex justify-center items-center h-1/4">Box 2</div>
+        <div class="bg-white p-4 shadow rounded-lg flex justify-center items-center h-1/4">Box 3</div>
+        <div class="bg-white p-4 shadow rounded-lg flex justify-center items-center h-1/4">Box 4</div>
+        <div class="bg-white p-4 shadow rounded-lg flex justify-center items-center h-1/4">Box 5</div>
     </div>
-    <div id="profile" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+    <div id="profile" class="screen hidden p-6 flex-1 flex justify-center items-center h-full"> 
         <h1 class="text-2xl font-semibold">Profile</h1>
     </div>
-    <div id="setting" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+    <div id="setting" class="screen hidden p-6 flex-1 flex justify-center items-center h-full"> 
         <h1 class="text-2xl font-semibold">Setting</h1>
     </div>
-    <div id="track" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+    <div id="track" class="screen hidden p-6 flex-1 flex justify-center items-center h-full"> 
         <h1 class="text-2xl font-semibold">Track</h1>
     </div>
-    <div id="sensei" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+    <div id="sensei" class="screen hidden p-6 flex-1 flex justify-center items-center h-full"> 
         <h1 class="text-2xl font-semibold">Sensei</h1>
     </div>
-    <div id="meal" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+    <div id="meal" class="screen hidden p-6 flex-1 flex justify-center items-center h-full"> 
         <h1 class="text-2xl font-semibold">Meal</h1>
     </div>
-    <div id="content" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
+    <div id="content" class="screen hidden p-6 flex-1 flex justify-center items-center h-full"> 
         <h1 class="text-2xl font-semibold">Content</h1>
     </div>
 
