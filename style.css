@@ -21,7 +21,7 @@ html, body {
     align-items: center;
 }
 
-.nav-button {
+.navbar:button {
     flex: 1;
     height: 100%;
     background-color: purple;
