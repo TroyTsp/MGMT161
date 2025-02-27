@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -9,70 +9,21 @@ body {
     height: 100vh;
 }
 
-/* Header */
-.header {
-    background-color: #007bff;
+/* Navigation */
+.top-nav {
+    background-color: #6a0dad; /* Purple color */
     color: white;
-    text-align: center;
-    padding: 15px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-/* Content */
-.content {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
-/* Card */
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    max-width: 300px;
-    width: 100%;
-}
-
-.card h2 {
-    margin: 0;
-    color: #333;
-}
-
-.card p {
-    color: #666;
-    font-size: 14px;
-}
-
-.card button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.card button:hover {
-    background-color: #0056b3;
-}
-
-/* Bottom Navigation */
-.bottom-nav {
-    background: white;
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%; /* Ensure it stretches across the screen */
+    position: fixed; /* Fix it at the top */
+    top: 0;
+    z-index: 10; /* Keep it above other content */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add slight shadow */
 }
 
 .bottom-nav button {
@@ -81,8 +32,4 @@ body {
     font-size: 16px;
     cursor: pointer;
     color: #555;
-}
-
-.bottom-nav button:hover {
-    color: #007bff;
 }
