@@ -11,3 +11,23 @@ html, body {
     overflow: hidden; /* Prevent scrolling */
     background-color: #ffffff; /* Blank page */
 }
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-button {
+    flex: 1;
+    height: 100%;
+    background-color: purple;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
