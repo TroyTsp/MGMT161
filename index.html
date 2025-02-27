@@ -1,17 +1,34 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-100 p-4">
-    <div class="max-w-sm mx-auto bg-white shadow-lg rounded-3xl overflow-hidden border border-gray-200">
-        <div class="h-12 bg-black flex items-center justify-center">
-          <p class="text-white text-sm">Mock Mobile App</p>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        My Mock App
+    </header>
+
+    <!-- Content Area -->
+    <main class="content">
+        <div class="card">
+            <h2>Welcome!</h2>
+            <p>This is a simple app mockup using HTML, CSS, and JavaScript.</p>
+            <button id="alertBtn">Click Me</button>
         </div>
-        <div class="p-4">
-          <!-- UI Elements Go Here -->
-        </div>
-      </div>
-      
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <button>🏠 Home</button>
+        <button>📩 Messages</button>
+        <button>⚙️ Settings</button>
+    </nav>
+
+    <script src="script.js"></script>
 </body>
 </html>
