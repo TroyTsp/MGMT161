@@ -1,22 +1,22 @@
 body {
     background-color: #ffffff;
+    border: none;
     height: 100vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    border: none;
     padding: 0;
     margin: 0;
 }
 
 .topnav {
     background-color: #8800ff;
+    border: none;
     display: flex;
     justify-content: space-between;
     height: 10vh;
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 .topnav button {
@@ -25,4 +25,6 @@ body {
     color: white;
     font-size: 16px;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
