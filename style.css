@@ -8,6 +8,8 @@ body {
 
 .navbar {
     background-color: #8800ff;
+    border: none;
+    padding: 16px;
     display: flex;
     justify-content: space-between;
     height: 64px;
