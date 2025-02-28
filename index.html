@@ -3,60 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mock Mobile App</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sensei</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<body class="bg-gray-100 h-screen flex flex-col overflow-hidden">
+<body>
+
     <!-- Navigation Bar -->
-    <nav class="bg-blue-500 text-white p-4 flex justify-between h-16">
-        <button onclick="showScreen('profile')" class="px-3">Profile</button>
-        <button onclick="showScreen('home')" class="px-3">Sensei</button>
-        <button onclick="showScreen('setting')" class="px-3">Settings</button>
+    <nav class="navbar">
+        <button onclick="showScreen('profile')">Profile</button>
+        <button onclick="showScreen('home')">Sensei</button>
+        <button onclick="showScreen('setting')">Settings</button>
     </nav>
 
     <!-- Screens -->
-    <div id="home" class="screen p-4 flex-1 grid gap-3 grid-cols-2 grid-rows-3" style="height: calc(100vh - 8rem - 4rem);"> 
-        <div class="col-span-2 bg-white p-4 shadow rounded-lg flex justify-center items-center">Box 1</div>
-        <div class="bg-white p-4 shadow rounded-lg flex justify-center items-center">Box 2</div>
-        <div class="bg-white p-4 shadow rounded-lg flex justify-center items-center">Box 3</div>
-        <div class="bg-white p-4 shadow rounded-lg flex justify-center items-center">Box 4</div>
-        <div class="bg-white p-4 shadow rounded-lg flex justify-center items-center">Box 5</div>
+    <div id="home" class="screen active">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
     </div>
-    <div id="profile" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
-        <h1 class="text-2xl font-semibold">Profile</h1>
+    <div id="profile" class="screen">
+        <h1>Profile</h1>
     </div>
-    <div id="setting" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
-        <h1 class="text-2xl font-semibold">Setting</h1>
+    <div id="setting" class="screen">
+        <h1>Setting</h1>
     </div>
-    <div id="track" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
-        <h1 class="text-2xl font-semibold">Track</h1>
+    <div id="track" class="screen">
+        <h1>Track</h1>
     </div>
-    <div id="sensei" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
-        <h1 class="text-2xl font-semibold">Sensei</h1>
+    <div id="sensei" class="screen">
+        <h1>Sensei</h1>
     </div>
-    <div id="meal" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
-        <h1 class="text-2xl font-semibold">Meal</h1>
+    <div id="meal" class="screen">
+        <h1>Meal</h1>
     </div>
-    <div id="content" class="screen hidden p-6 flex-1 flex justify-center items-center"> 
-        <h1 class="text-2xl font-semibold">Content</h1>
+    <div id="content" class="screen">
+        <h1>Content</h1>
     </div>
 
     <!-- Bottom Navigation Bar -->
-    <div class="bg-white shadow-md fixed bottom-0 left-0 w-full flex justify-around p-4 h-16">
-        <button onclick="showScreen('home')" class="text-gray-600">Home</button>
-        <button onclick="showScreen('track')" class="text-gray-600">Track</button>
-        <button onclick="showScreen('sensei')" class="text-gray-600">Sensei</button>
-        <button onclick="showScreen('meal')" class="text-gray-600">Meal</button>
-        <button onclick="showScreen('content')" class="text-gray-600">Content</button>
+    <div class="navbar">
+        <button onclick="showScreen('home')">Home</button>
+        <button onclick="showScreen('track')">Track</button>
+        <button onclick="showScreen('sensei')">Sensei</button>
+        <button onclick="showScreen('meal')">Meal</button>
+        <button onclick="showScreen('content')">Content</button>
     </div>
 
-    <script>
-        function showScreen(screenId) {
-            document.querySelectorAll('.screen').forEach(screen => {
-                screen.classList.add('hidden');
-            });
-            document.getElementById(screenId).classList.remove('hidden');
-        }
-    </script>
 </body>
 </html>
