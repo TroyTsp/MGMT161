@@ -1,6 +1,6 @@
 function showScreen(screenId) {
     document.querySelectorAll('.screen').forEach(screen => {
-        screen.classList.remove('active');
+        screen.classList.add('hidden');
     });
-    document.getElementById(screenId).classList.add('active');
+    document.getElementById(screenId).classList.remove('hidden');
 }
