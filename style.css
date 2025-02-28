@@ -15,7 +15,7 @@ nav {
     justify-content: space-between;
     height: 10vh;
     margin: 0;
-    padding: 16px;
+    padding: 0;
 }
 
 nav button {
@@ -24,7 +24,7 @@ nav button {
     color: white;
     font-size: 16px;
     cursor: pointer;
-    margin: 0;
+    margin: 16px;
     padding: 0;
 }
 
@@ -32,6 +32,6 @@ main {
     background: none;
     border: none;
     height: 80vh;
-    padding: 16px;
+    padding: 0;
     margin: 0;
 }
