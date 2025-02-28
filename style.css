@@ -4,8 +4,9 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    padding: none;
     border: none;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar {
@@ -13,6 +14,9 @@ body {
     display: flex;
     justify-content: space-between;
     height: 10vh;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .navbar button {
