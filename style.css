@@ -46,6 +46,7 @@ div {
     display: flex;
 }
 
-main div {
+.home div {
     height: 33%;
 }
+
