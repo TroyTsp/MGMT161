@@ -9,17 +9,17 @@ body {
     margin: 0;
 }
 
-.topnav {
+.navbar {
     background-color: #8800ff;
     border: none;
     display: flex;
     justify-content: space-between;
     height: 10vh;
     margin: 0;
-    padding: 0;
+    padding: 16px;
 }
 
-.topnav button {
+.navbar button {
     background: none;
     border: none;
     color: white;
