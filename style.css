@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-.nav {
+nav {
     background-color: #8800ff;
     border: none;
     display: flex;
@@ -19,7 +19,7 @@ body {
     padding: 16px;
 }
 
-.nav button {
+nav button {
     background: none;
     border: none;
     color: white;
