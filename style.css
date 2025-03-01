@@ -2,8 +2,6 @@ body {
     background-color: #ffffff;
     border: none;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
     padding: 0;
     margin: 0;
 }
@@ -11,7 +9,6 @@ body {
 nav {
     background-color: #8800ff;
     border: none;
-    display: flex;
     justify-content: space-between;
     height: 10vh;
     margin: 0;
@@ -34,8 +31,6 @@ main {
     height: 80vh;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
 div {
@@ -43,10 +38,17 @@ div {
     border: none;
     padding: 0;
     margin: 0;
-    display: flex;
+}
+
+.home {
+    display: block;
 }
 
 .home div {
     height: 33%;
+}
+
+.profile {
+    display: none;
 }
 
