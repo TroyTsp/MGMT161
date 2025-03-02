@@ -1,39 +1,48 @@
 body {
-    background-color: #ffffff;
+    margin: 0;
     border: none;
+    padding: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 0;
-    margin: 0;
+    background-color: #ffffff;
 }
 
 nav {
-    background-color: #8800ff;
+    margin: 0;
     border: none;
+    padding: 0;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 10vh;
-    margin: 0;
-    padding: 0;
+    background-color: #8800ff;
 }
 
 nav button {
-    background: none;
+    margin: 16px;
     border: none;
+    padding: 0;
+    background: none;
     color: white;
     font-size: 16px;
     cursor: pointer;
-    margin: 16px;
-    padding: 0;
 }
 
 div {
-    background: none;
+    margin: 0;
     border: none;
     padding: 0;
+    background: none;
+    display: flex;
+    flex-direction: row;
+}
+
+span {
     margin: 0;
+    border: none;
+    padding: 0;
+    background: none;
     display: flex;
     flex-direction: row;
 }
