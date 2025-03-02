@@ -13,10 +13,49 @@ nav {
     border: none;
     padding: 0;
     height: 10vh;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     background-color: #8800ff;
+}
+
+main {
+    background: none;
+    border: none;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+div {
+    margin: 0;
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background: none;
+}
+
+span {
+    margin: 0;
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background: none;
+}
+
+.justify-left {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: space-around;
+}
+
+.justify-right {
+    justify-content: flex-end;
 }
 
 nav button {
@@ -29,35 +68,12 @@ nav button {
     cursor: pointer;
 }
 
-div {
-    margin: 0;
-    border: none;
-    padding: 0;
-    background: none;
-    display: flex;
-    flex-direction: row;
+.topnav span {
+    width: 33%;
 }
 
-span {
-    margin: 0;
-    border: none;
-    padding: 0;
-    background: none;
-    display: flex;
-    flex-direction: row;
-}
-
-main {
-    background: none;
-    border: none;
-    height: 80vh;
-    padding: 0;
-    margin: 0;
-    flex-direction: column;
-}
-
-.justify-right {
-    justify-content: flex-end;
+.botnav span {
+    width: 20%;
 }
 
 .home {

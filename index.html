@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
 
     <!-- Top Navigation -->
-    <nav>
-        <span>
+    <nav class="topnav">
+        <span class="justify-left">
             <button onclick="showScreen('profile')">Profile</button>
         </span>
-        <button onclick="showScreen('home')">Sensei</button>
+        <span class="justify-center">
+            <button onclick="showScreen('home')">Sensei</button>
+        </span>
         <span class="justify-right">
             <button onclick="showScreen('setting')">Settings</button>
         </span>
@@ -39,13 +43,24 @@
     </main>
 
     <!-- Bot Navigation -->
-    <nav>
-        <button onclick="showScreen('profile')">Home</button>
-        <button onclick="showScreen('home')">Track</button>
-        <button onclick="showScreen('setting')">Sensei</button>
-        <button onclick="showScreen('setting')">Meal</button>
-        <button onclick="showScreen('setting')">Content</button>
+    <nav class="botnav">
+        <span class="justify-center">
+            <button onclick="showScreen('profile')">Home</button>
+        </span>
+        <span class="justify-center">
+            <button onclick="showScreen('home')">Track</button>
+        </span>
+        <span class="justify-center">
+            <button onclick="showScreen('setting')">Sensei</button>
+        </span>
+        <span class="justify-center">
+            <button onclick="showScreen('setting')">Meal</button>
+        </span>
+        <span class="justify-center">
+            <button onclick="showScreen('setting')">Content</button>
+        </span>
     </nav>
 
 </body>
+
 </html>
