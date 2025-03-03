@@ -1,6 +1,6 @@
-function showScreen(screenId) {
-    document.querySelectorAll('.screen').forEach(screen => {
-        screen.classList.add('hidden');
+function showScreen(mainId) {
+    document.querySelectorAll('main').forEach(main => {
+        main.style.display = 'none';
     });
-    document.getElementById(screenId).classList.remove('hidden');
+    document.getElementById(mainId).style.display = 'flex';
 }
