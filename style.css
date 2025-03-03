@@ -74,11 +74,11 @@ span {
 }
 
 .topnav span {
-    width: 33% - 10px;
+    width: calc(33% - 10px);
 }
 
 .botnav span {
-    width: 20% - 12px;
+    width: calc(20% - 12px);
 }
 
 nav button {
@@ -98,11 +98,11 @@ nav button {
 }
 
 .home div {
-    height: 33% - 10px;
+    height: calc(33% - 10px);
 }
 
 .home span {
-    width: 50% - 8px;
+    width: calc(50% - 8px);
 }
 
 .home button {
