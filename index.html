@@ -14,42 +14,52 @@
     <!-- Top Navigation -->
     <nav class="topnav">
         <span class="justify-left">
-            <button onclick="showScreen('profile')">Profile</button>
+            <span class="contain-content">
+                <button onclick="showScreen('back')">Back</button>
+            </span>
+            <span class="contain-content">
+                <button onclick="showScreen('profile')">Profile</button>
+            </span>
         </span>
-        <span class="justify-center">
+        <span class="justify-center contain-content">
             <button onclick="showScreen('home')">Sensei</button>
         </span>
         <span class="justify-right">
-            <button onclick="showScreen('setting')">Settings</button>
+            <span class="contain-content">
+                <button onclick="showScreen('connect')">Connect</button>
+            </span>
+            <span class="contain-content">
+                <button onclick="showScreen('setting')">Setting</button>
+            </span>
         </span>
     </nav>
 
     <!-- Home Screen-->
     <main id="home" class="home">
-        <div>
+        <div class="contain-content">
             <button>
                 box
             </button>
         </div>
         <div>
-            <span>
+            <span class="contain-content">
                 <button>
                     box
                 </button>
             </span>
-            <span>
+            <span class="contain-content">
                 <button>
                     box
                 </button>
             </span>
         </div>
         <div>
-            <span>
+            <span class="contain-content">
                 <button>
                     box
                 </button>
             </span>
-            <span>
+            <span class="contain-content">
                 <button>
                     box
                 </button>
@@ -64,19 +74,19 @@
 
     <!-- Bot Navigation -->
     <nav class="botnav">
-        <span class="justify-center">
+        <span class="justify-center contain-content">
             <button onclick="showScreen('profile')">Home</button>
         </span>
-        <span class="justify-center">
+        <span class="justify-center contain-content">
             <button onclick="showScreen('home')">Track</button>
         </span>
-        <span class="justify-center">
+        <span class="justify-center contain-content">
             <button onclick="showScreen('setting')">Sensei</button>
         </span>
-        <span class="justify-center">
+        <span class="justify-center contain-content">
             <button onclick="showScreen('setting')">Meal</button>
         </span>
-        <span class="justify-center">
+        <span class="justify-center contain-content">
             <button onclick="showScreen('setting')">Content</button>
         </span>
     </nav>
