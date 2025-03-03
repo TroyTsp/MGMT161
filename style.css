@@ -40,7 +40,6 @@ div {
     padding: 0;
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
     border: none;
     background: none;
 }
@@ -51,7 +50,6 @@ span {
     padding: 0;
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
     border: none;
     background: none;
 }
@@ -80,6 +78,10 @@ span {
     justify-content: space-around;
 }
 
+nav span {
+    flex-direction: row;
+}
+
 nav button {
     height: 100%;
     margin: 0;
@@ -98,10 +100,12 @@ nav button {
 
 .home div {
     height: 33%;
+    flex-direction: row;
 }
 
 .home span {
     width: 50%;
+    flex-direction: row;
 }
 
 .home button {
@@ -126,6 +130,7 @@ nav button {
 .connect .connect-1{
     height: 100%;
     box-sizing: border-box;
+    flex-direction: column;
     border-style: groove;
     border-color: black;
     border-radius: 16px;
@@ -136,6 +141,7 @@ nav button {
 .connect div {
     width: 100%;
     box-sizing: border-box;
+    flex-direction: row;
     border: none;
     background: none;
 }
