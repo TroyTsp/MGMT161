@@ -19,6 +19,7 @@ nav {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     border: none;
     background-color: #8800ff;
 }
@@ -70,14 +71,6 @@ span {
 
 .contain-content {
     padding: 16px;
-}
-
-.topnav span {
-    width: 33%;
-}
-
-.botnav span {
-    width: 20%;
 }
 
 nav button {
