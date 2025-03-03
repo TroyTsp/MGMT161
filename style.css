@@ -116,6 +116,41 @@ nav button {
     background-color: ghostwhite;
     color: black;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.connect {
+    display: none;
+}
+
+.connect .connect-1{
+    height: 100%;
+    box-sizing: border-box;
+    border-style: groove;
+    border-color: black;
+    border-radius: 16px;
+    background-color: ghostwhite;
+    color: black;
+}
+
+.connect div {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+}
+
+.connect header {
+    font-size: 32px;
+}
+
+.connect button {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .profile {
