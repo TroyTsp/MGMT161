@@ -19,7 +19,6 @@ nav {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     border: none;
     background-color: #8800ff;
 }
@@ -73,6 +72,14 @@ span {
     padding: 16px;
 }
 
+.topnav {
+    justify-content: space-between;
+}
+
+.botnav {
+    justify-content: space-around;
+}
+
 nav button {
     height: 100%;
     margin: 0;
@@ -94,7 +101,7 @@ nav button {
 }
 
 .home span {
-    width: 33%;
+    width: 50%;
 }
 
 .home button {
