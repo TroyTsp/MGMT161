@@ -1,9 +1,10 @@
 body {
-    box-sizing: border-box;
     width: 100vw;
     height: 100vh;
     margin: 0;
     padding: 0;
+    gap: 0;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     border: none;
@@ -12,11 +13,12 @@ body {
 }
 
 nav {
-    box-sizing: border-box;
     width: 100%;
     height: 10%;
     margin: 0;
-    padding: 0;
+    padding: 16px;
+    gap: 16px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     border: none;
@@ -24,21 +26,23 @@ nav {
 }
 
 main {
-    box-sizing: border-box;
     width: 100%;
     height: 80%;
     margin: 0;
-    padding: 0;
+    padding: 16px;
+    gap: 16px;
+    box-sizing: border-box;
     flex-direction: column;
     border: none;
     background: none;
 }
 
 div {
-    box-sizing: border-box;
     width: 100%;
     margin: 0;
     padding: 0;
+    gap: 16px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     border: none;
@@ -46,10 +50,11 @@ div {
 }
 
 span {
-    box-sizing: border-box;
     height: 100%;
     margin: 0;
-    padding: 16px;
+    padding: 0;
+    gap: 16px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     border: none;
@@ -68,11 +73,19 @@ span {
     justify-content: flex-end;
 }
 
+.topnav span {
+    width: 33% - 10px;
+}
+
+.botnav span {
+    width: 20% - 12px;
+}
+
 nav button {
-    box-sizing: border-box;
     height: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     border: none;
     background: none;
     color: white;
@@ -80,35 +93,28 @@ nav button {
     cursor: pointer;
 }
 
-.topnav span {
-    width: 33%;
-}
-
-.botnav span {
-    width: 20%;
-}
-
 .home {
     display: flex;
 }
 
 .home div {
-    height: 33%;
+    height: 33% - 10px;
 }
 
 .home span {
-    width: 50%;
+    width: 50% - 8px;
 }
 
 .home button {
-    box-sizing: border-box;
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     border-style: groove;
     border-color: black;
-    background-color: lightgray;
+    border-radius: 16px;
+    background-color: ghostwhite;
     color: black;
     font-size: 16px;
 }
