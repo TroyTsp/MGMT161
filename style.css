@@ -68,7 +68,7 @@ span {
 }
 
 .contain-content {
-    padding: 16px;
+    padding: 8px;
 }
 
 .topnav .topnav-span {
@@ -79,6 +79,10 @@ span {
 .botnav span {
     flex-direction: row;
     width: 20%;
+}
+
+nav .title-button {
+    font-size: 32px;
 }
 
 nav button {
@@ -175,7 +179,7 @@ nav button {
 }
 
 .content header {
-    font-size: 32px;
+    font-size: 16px;
 }
 
 .content button {
