@@ -172,24 +172,6 @@ nav button {
     display: none;
 }
 
-.sensei .div-date {
-    height: 10%;
-}
-
-.sensei .button-date {
-    width: auto;
-    height: 100%;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: ghostwhite;
-    border-style: groove;
-    border-color: black;
-    border-radius: 16px;
-    color: black;
-    font-size: 24px;
-    cursor: pointer;
-}
-
 .sensei .div-text {
     height: 80%;
 }
@@ -239,6 +221,51 @@ nav button {
     font-size: 16px;
     color: white;
     cursor: pointer;
+}
+
+.meal {
+    display: none;
+}
+
+.meal .div-date {
+    height: 10%;
+}
+
+.meal .button-date {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: ghostwhite;
+    border-style: groove;
+    border-color: black;
+    border-radius: 16px;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.meal .div-meal {
+    height: 80%;
+    flex-direction: column;
+}
+
+
+
+.meal .div-add {
+    height: 10%;
+    justify-content: flex-end;
+}
+
+.meal .button-add {
+    height: 100%;
+    border-style: groove;
+    border-color: black;
+    border-radius: 32px;
+    background-color: purple;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .content {
