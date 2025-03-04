@@ -171,10 +171,11 @@ nav button {
 .content .header-div {
     height: 5%;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .content .header-span {
-    width: 50%;
+    width: auto;
     flex-direction: row;
 }
 
