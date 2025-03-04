@@ -166,12 +166,15 @@ nav button {
 .content .header-div {
     height: 10%;
     flex-direction: row;
-    
 }
 
 .content .header-span {
     width: 50%;
     flex-direction: row;
+}
+
+.content header {
+    font-size: 32px;
 }
 
 .content button {
