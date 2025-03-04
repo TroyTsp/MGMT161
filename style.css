@@ -169,7 +169,7 @@ nav button {
 }
 
 .content .header-div {
-    height: 10%;
+    height: 5%;
     flex-direction: row;
 }
 
@@ -193,7 +193,7 @@ nav button {
 }
 
 .content .content-div {
-    height: 20%;
+    height: 25%;
     flex-direction: row;
 }
 
