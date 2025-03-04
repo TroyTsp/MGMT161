@@ -71,7 +71,7 @@ span {
     padding: 16px;
 }
 
-.topnav span {
+.topnav .topnav-span {
     flex-direction: row;
     width: 33%;
 }
@@ -161,5 +161,36 @@ nav button {
 
 .content {
     display: none;
+}
+
+.content .header-div {
+    height: 10%;
+    flex-direction: row;
+    
+}
+
+.content .header-span {
+    width: 50%;
+    flex-direction: row;
+}
+
+.content button {
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: blue;
+    cursor: pointer;
+}
+
+.content .content-div {
+    height: 20%;
+    flex-direction: row;
+}
+
+.content .content-span {
+    width: 33%;
+    flex-direction: row;
 }
 
