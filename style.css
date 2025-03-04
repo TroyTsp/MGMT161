@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     border: none;
-    background-color: #ffffff;
+    background-color: white;
     font-family: sans-serif;
 }
 
@@ -21,7 +21,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     border: none;
-    background-color: #8800ff;
+    background-color: purple;
 }
 
 main {
@@ -161,6 +161,77 @@ nav button {
     background: none;
     font-size: 16px;
     text-align: left;
+    cursor: pointer;
+}
+
+.sensei {
+    display: none;
+}
+
+.sensei .div-date {
+    height: 10%;
+}
+
+.sensei .button-date {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: ghostwhite;
+    border-style: groove;
+    border-color: black;
+    border-radius: 16px;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.sensei .div-text {
+    height: 80%;
+}
+
+.sensei .span-text {
+    width: 100%;
+}
+
+.sensei .span-bubble {
+    width: 100%;
+    background-color: rebeccapurple;
+    border-style: groove;
+    border-color: black;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+}
+
+.sensei .div-message {
+    height: 10%;
+}
+
+.sensei .span-message {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sensei .button-message {
+    width: 80%;
+    background-color: ghostwhite;
+    border-style: groove;
+    border-color: black;
+    border-radius: 32px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sensei .button-send {
+    width: auto;
+    background-color: purple;
+    border-style: groove;
+    border-color: black;
+    border-radius: 32px;
+    font-size: 16px;
+    color: white;
     cursor: pointer;
 }
 
