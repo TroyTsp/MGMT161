@@ -168,6 +168,38 @@ nav button {
     display: none;
 }
 
+.track .div-health {
+    height: 30%;
+}
+
+.track .span-health {
+    width: 100%;
+    height: 100%;
+    border-style: groove;
+    border-color: black;
+    border-radius: 16px;
+    background-color: ghostwhite;
+}
+
+.track .div-calendar {
+    height: 70%;
+    flex-direction: column;
+}
+
+.track table {
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+ 
+.track th {
+    font-weight: bold;
+}
+
+.track td {
+    font-weight: bold;
+}
+
 .sensei {
     display: none;
 }
