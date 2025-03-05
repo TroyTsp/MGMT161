@@ -173,7 +173,7 @@ nav button {
 }
 
 .sensei .div-text {
-    height: 80%;
+    height: 9   0%;
 }
 
 .sensei .span-text {
@@ -250,7 +250,36 @@ nav button {
     flex-direction: column;
 }
 
+.meal .div-item {
+    width: 100%;
+    flex-direction: column;
+    border-style: groove;
+    border-color: black;
+    border-radius: 16px;
+    background-color: ghostwhite;
+}
 
+.meal .div-header {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.meal header {
+    font-size: 24px;
+    color: black;
+}
+
+.meal .div-item {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.meal p {
+    font-size: 16px;
+    color: black;
+}
 
 .meal .div-add {
     height: 10%;
