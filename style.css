@@ -173,7 +173,7 @@ nav button {
 }
 
 .sensei .div-text {
-    height: 9   0%;
+    height: 90%;
 }
 
 .sensei .span-text {
@@ -270,7 +270,7 @@ nav button {
     color: black;
 }
 
-.meal .div-item {
+.meal .div-content {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
