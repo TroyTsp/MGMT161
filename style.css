@@ -1,130 +1,110 @@
+* {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: black;
+    font-family: sans-serif;
+}
+
 body {
     width: 100vw;
     height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
     flex-direction: column;
-    border: none;
     background-color: white;
-    font-family: sans-serif;
 }
 
 nav {
     width: 100%;
     height: 10%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    border: none;
     background-color: purple;
 }
 
 main {
     width: 100%;
     height: 80%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     flex-direction: column;
-    border: none;
-    background: none;
 }
 
 div {
     width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    border: none;
-    background: none;
 }
 
 span {
     height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    border: none;
-    background: none;
 }
 
-.justify-left {
-    justify-content: flex-start;
-}
-
-.justify-center {
-    justify-content: space-around;
-}
-
-.justify-right {
-    justify-content: flex-end;
-}
-
-.contain-content {
-    padding: 8px;
-}
-
-.topnav .topnav-span {
-    flex-direction: row;
-    width: 33%;
-}
-
-.botnav span {
-    flex-direction: row;
-    width: 20%;
-}
-
-nav .title-button {
+h1 {
     font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
 }
 
 nav button {
     height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    background: none;
     color: white;
-    font-size: 16px;
     cursor: pointer;
 }
 
-.home {
-    display: flex;
+.top-nav .left-span {
+    width: 33%;
+    padding: 8px;
+    justify-content: flex-start;
 }
 
-.home div {
+.top-nav .center-span {
+    width: 33%;
+    padding: 8px;
+}
+
+.top-nav .right-span {
+    width: 33%;
+    justify-content: flex-end;
+}
+
+.top-nav .item-span {
+    padding: 8px;
+}
+
+.top-nav .title-button {
+    font-size: 32px;
+}
+
+.bot-nav span {
+    width: 20%;
+}
+
+.home .item-div {
     height: 33%;
-    flex-direction: row;
+    padding: 8px;
 }
 
-.home span {
+.home .item-span {
     width: 50%;
-    flex-direction: row;
+    padding: 8px;
 }
 
 .home button {
     height: 100%;
     width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     border-style: groove;
     border-color: black;
-    border-radius: 16px;
     background-color: ghostwhite;
-    color: black;
-    font-size: 16px;
     cursor: pointer;
 }
+
+/*
 
 .connect {
     display: none;
@@ -370,3 +350,5 @@ nav button {
     background-color: ghostwhite;
     color: black;
 }
+
+*/
