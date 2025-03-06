@@ -104,6 +104,26 @@ nav button {
     cursor: pointer;
 }
 
+.connect {
+    display: none;
+}
+
+.track {
+    display: none;
+}
+
+.sensei {
+    display: none;
+}
+
+.meal {
+    display: none;
+}
+
+.content {
+    display: none;
+}
+
 /*
 
 .connect {
