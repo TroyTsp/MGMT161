@@ -145,12 +145,25 @@ nav button {
 }
 
 .connect .item-div {
-    padding: 8px;
     justify-content: flex-start;
 }
 
+.connect h1 {
+    padding: 8px;
+}
+
 .connect button {
+    padding: 8px;
     cursor: pointer;
+}
+
+.connect span {
+    width: 32px;
+    height: 32px;
+    display: none;
+    border-style: groove;
+    border-color: black;
+    background-color: lightgray;
 }
 
 .track {
