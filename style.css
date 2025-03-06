@@ -126,10 +126,6 @@ nav button {
     display: none;
 }
 
-.content {
-    display: none;
-}
-
 /*
 
 .connect {
@@ -332,7 +328,7 @@ nav button {
 }
 
 .content .header-div {
-    height: 5%;
+    height: 8%;
     justify-content: space-between;
 }
 
