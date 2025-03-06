@@ -265,13 +265,13 @@ nav button {
 }
 
 .analysis .timeline-div {
-    width: 3072px;
+    width: 1536px;
     display: flex;
     justify-content: flex-start;
 }
 
 .analysis .timeline-span {
-    width: 128px;
+    width: 64px;
     height: 64px;
     display: flex;
     flex-direction: column;
