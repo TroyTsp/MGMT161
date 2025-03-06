@@ -175,62 +175,54 @@ nav button {
     font-weight: bold;
 }
 
+*/
+
 .sensei {
     display: none;
 }
 
-.sensei .div-text {
+.sensei .text-div {
     height: 90%;
-}
-
-.sensei .span-text {
-    width: 100%;
     flex-direction: column;
 }
 
-.sensei .span-bubble {
+.sensei .ai-span {
     width: 100%;
-    height: 30%;
+    padding: 8px;
     background-color: rebeccapurple;
     border-style: groove;
     border-color: black;
     border-radius: 16px;
+}
+
+.sensei .ai-p {
     color: white;
-    font-size: 16px;
 }
 
-.sensei .div-message {
+.sensei .message-div {
     height: 10%;
-}
-
-.sensei .span-message {
-    width: 100%;
+    padding: 8px;
     justify-content: space-between;
 }
 
-.sensei .button-message {
+.sensei .message-button {
     width: 80%;
-    background-color: ghostwhite;
+    padding: 8px;
     border-style: groove;
     border-color: black;
     border-radius: 32px;
-    color: black;
-    font-size: 16px;
+    background-color: ghostwhite;
     cursor: pointer;
 }
 
 .sensei .button-send {
-    width: auto;
-    background-color: rebeccapurple;
     border-style: groove;
     border-color: black;
-    border-radius: 32px;
-    font-size: 16px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
     color: white;
     cursor: pointer;
 }
-
-*/
 
 .meal {
     display: none;
