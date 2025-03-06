@@ -158,12 +158,11 @@ nav button {
 }
 
 .connect span {
-    width: 32px;
-    height: 32px;
+    width: 16px;
+    height: 16px;
     display: none;
-    border-style: groove;
-    border-color: black;
-    background-color: lightgray;
+    border-radius: 8px;
+    background-color: lightgreen;
 }
 
 .track {
