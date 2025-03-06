@@ -15,6 +15,10 @@
     font-family: sans-serif;
 }
 
+head {
+    display: none;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -52,7 +56,6 @@ h2 {
 }
 
 nav button {
-    height: 100%;
     color: white;
     cursor: pointer;
 }
@@ -100,6 +103,7 @@ nav button {
     width: 100%;
     border-style: groove;
     border-color: black;
+    border-radius: 16px;
     background-color: ghostwhite;
     cursor: pointer;
 }
