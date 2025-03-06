@@ -241,7 +241,7 @@ nav button {
 }
 
 .analysis .time-div{
-    width: 3072px;
+    width: 100%;
     overflow-x: auto;
     display: flex;
     flex-direction: column;
@@ -250,6 +250,7 @@ nav button {
 .analysis .timeline-div {
     width: 3072px;
     display: flex;
+    justify-content: flex-start;
 }
 
 .analysis .timeline-span {
@@ -262,11 +263,14 @@ nav button {
     align-items: center;
 }
 
+.analysis .border-div {
+    width: 3072px;
+    padding: 8px;
+}
+
 .analysis .line-div {
     width: 3072px;
-    height: 8px;
-    padding: 8px;
-    border: none;
+    height: 2px;
     background-color: black;
 }
 
