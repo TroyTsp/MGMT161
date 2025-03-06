@@ -8,3 +8,8 @@ function showScreen(mainId) {
 function showDiv(mainId) {
     document.getElementById(mainId).style.display = 'flex';
 }
+
+function showText() {
+    document.getElementById('sensei-message').value = ''
+    document.getElementById('sensei-taxt').style.display = 'flex';
+}

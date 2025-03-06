@@ -455,12 +455,21 @@
                     Hi, I'm Sensei, your AI health advisor! How can I help you?
                 </p>
             </span>
+            <span id="sensei-text" class="text-span">
+                <p class="text-p">
+                    How is my baby doing?
+                </p>
+            </span>
+            <span id="sensei-text" class="ai-span">
+                <p class="ai-p">
+                    Your baby is doing well! I picked up a higher level of acid, so please watch the acid intake.
+                </p>
+            </span>
         </div>
         <div class="message-div">
-            <input class="message-button" type="text">
-                Message
+            <input id="sensei-message" class="message-button" type="text" placeholder="Message">
             </button>
-            <button class="send-button">
+            <button class="send-button" onclick="showText()">
                 Send
             </button>
         </div>
