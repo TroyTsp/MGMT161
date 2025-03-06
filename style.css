@@ -323,56 +323,38 @@ nav button {
     vertical-align: middle;
 }
 
+*/
+
 .content {
     display: none;
 }
 
 .content .header-div {
     height: 5%;
-    flex-direction: row;
     justify-content: space-between;
 }
 
 .content .header-span {
-    width: auto;
-    flex-direction: row;
-}
-
-.content header {
-    font-size: 24px;
+    padding: 8px;
 }
 
 .content button {
-    height: 100%;
-    box-sizing: border-box;
-    border: none;
-    background: none;
-    font-size: 16px;
     color: blue;
     cursor: pointer;
 }
 
 .content .content-div {
     height: 25%;
-    flex-direction: row;
 }
 
 .content .content-span {
     width: 33%;
-    flex-direction: row;
+    padding: 8px;
 }
 
 .content a {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     border-style: groove;
     border-color: black;
     border-radius: 16px;
     background-color: ghostwhite;
-    color: black;
 }
-
-*/
