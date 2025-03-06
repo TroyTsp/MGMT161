@@ -240,19 +240,34 @@ nav button {
     display: none;
 }
 
-.analysis .timeline-div{
+.analysis .time-div{
+    width: 3072px;
     overflow-x: auto;
-    white-space: nowrap;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.analysis .timeline-div {
+    width: 3072px;
+    display: flex;
 }
 
 .analysis .timeline-span {
-    width: 64px;
+    width: 128px;
+    height: 128px;
     padding: 8px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+}
+
+.analysis .line-div {
+    width: 3072px;
+    height: 8px;
+    padding: 8px;
+    border: none;
+    background-color: black;
 }
 
 .sensei {
