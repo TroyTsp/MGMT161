@@ -211,7 +211,7 @@ nav button {
     height: 16px;
     border-style: groove;
     border-color: black;
-    border-radius: 8px;
+    border-radius: 16px;
     background-color: lightgreen;
     cursor: pointer;
 }
@@ -221,7 +221,7 @@ nav button {
     height: 16px;
     border-style: groove;
     border-color: black;
-    border-radius: 8px;
+    border-radius: 16px;
     background-color: yellow;
     cursor: pointer;
 }
@@ -231,7 +231,7 @@ nav button {
     height: 16px;
     border-style: groove;
     border-color: black;
-    border-radius: 8px;
+    border-radius: 16px;
     background-color: red;
     cursor: pointer;
 }
@@ -257,11 +257,34 @@ nav button {
 .analysis .timeline-span {
     width: 128px;
     height: 64px;
-    padding: 8px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+
+.analysis p {
+    padding: 8px;
+}
+
+.analysis .green-button {
+    width: 100%;
+    height: 16px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 16px;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.analysis .yellow-button {
+    width: 100%;
+    height: 16px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 16px;
+    background-color: yellow;
+    cursor: pointer;
 }
 
 .analysis .border-div {
