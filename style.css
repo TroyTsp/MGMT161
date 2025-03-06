@@ -180,17 +180,21 @@ nav button {
 }
 
 .track table {
-    border-collapse: collapse;
-    background: white;
-    color: black;
+    width: 80%;
+    border: none;
 }
  
 .track th {
-    font-weight: bold;
+    width: 14%;
+    height: 32px;
+    background-color: rebeccapurple;
+    color: white;
 }
 
 .track td {
-    font-weight: bold;
+    width: 14%;
+    width: 14%;
+    height: 32px;
 }
 
 .sensei {
@@ -236,7 +240,7 @@ nav button {
     cursor: pointer;
 }
 
-.sensei .button-send {
+.sensei .send-button {
     padding: 8px;
     border-style: groove;
     border-color: black;
