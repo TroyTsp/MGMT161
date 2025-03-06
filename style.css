@@ -212,7 +212,27 @@ nav button {
     border-style: groove;
     border-color: black;
     border-radius: 8px;
-    background-color: green;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.track .yellow-button {
+    width: 100%;
+    height: 16px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 8px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.track .red-button {
+    width: 100%;
+    height: 16px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 8px;
+    background-color: red;
     cursor: pointer;
 }
 
