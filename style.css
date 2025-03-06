@@ -244,35 +244,32 @@ nav button {
     cursor: pointer;
 }
 
+*/
+
 .meal {
     display: none;
 }
 
-.meal .div-date {
+.meal .date-div {
     height: 10%;
+    padding: 8px;
 }
 
-.meal .button-date {
-    width: auto;
-    height: 100%;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: ghostwhite;
+.meal .date-button {
     border-style: groove;
     border-color: black;
     border-radius: 16px;
-    color: black;
+    background-color: ghostwhite;
     font-size: 24px;
     cursor: pointer;
 }
 
-.meal .div-meal {
+.meal .meal-div {
     height: 80%;
     flex-direction: column;
 }
 
-.meal .div-item {
-    width: 100%;
+.meal .item-div {
     flex-direction: column;
     border-style: groove;
     border-color: black;
@@ -280,48 +277,24 @@ nav button {
     background-color: ghostwhite;
 }
 
-.meal .div-header {
-    width: 100%;
+.meal .content-div {
     flex-direction: row;
     justify-content: space-between;
 }
 
-.meal header {
-    font-size: 24px;
-    color: black;
-}
-
-.meal .div-content {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.meal p {
-    height: auto;
-    margin: 0;
-    font-size: 16px;
-    color: black;
-}
-
-.meal .div-add {
+.meal .add-div {
     height: 10%;
+    padding: 8px;
     justify-content: flex-end;
 }
 
-.meal .button-add {
-    height: 100%;
+.meal .add-button {
     border-style: groove;
     border-color: black;
-    border-radius: 32px;
+    border-radius: 50%;
     background-color: rebeccapurple;
-    font-size: 16px;
     color: white;
-    text-align: center;
-    vertical-align: middle;
 }
-
-*/
 
 .content {
     display: none;
