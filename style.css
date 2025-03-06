@@ -306,7 +306,7 @@ nav button {
 }
 
 .analysis .border-div {
-    width: 3072px;
+    width: 1536px;
     padding: 8px;
 }
 
@@ -314,6 +314,21 @@ nav button {
     width: 3072px;
     height: 4px;
     background-color: black;
+}
+
+.analysis .stats {
+    width: 100%;
+    height: 70%;
+    padding: 8px;
+}
+
+.analysis .stats-span {
+    width: 100%;
+    height: 100%;
+    border-style: groove;
+    border-color: black;
+    border-radius: 16px;
+    background-color: ghostwhite;
 }
 
 .sensei {
