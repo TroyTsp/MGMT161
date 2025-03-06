@@ -179,6 +179,12 @@ nav button {
     cursor: pointer;
 }
 
+.track .table-div {
+    padding: 8px;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .track table {
     width: 80%;
     border: none;
