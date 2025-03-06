@@ -4,10 +4,6 @@
     width: auto;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    vertical-align: middle;
     border: none;
     background: none;
     font-size: 16px;
@@ -22,6 +18,7 @@ head {
 body {
     width: 100vw;
     height: 100vh;
+    display: flex;
     flex-direction: column;
     background-color: white;
 }
@@ -29,22 +26,28 @@ body {
 nav {
     width: 100%;
     height: 10%;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
     background-color: purple;
 }
 
 main {
     width: 100%;
     height: 80%;
+    display: flex;
     flex-direction: column;
 }
 
 div {
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 span {
     height: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 h1 {
