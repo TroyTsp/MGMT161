@@ -11,6 +11,6 @@ function showDiv(mainId) {
 
 function showText() {
     document.getElementById('sensei-message').value = '';
-    document.querySelectorAll('sensei-text').forEach(main => {
-        main.style.display = 'flex';});
+    document.getElementById('sensei-text1').style.display = 'flex';
+    document.getElementById('sensei-text2').style.display = 'flex';
 }
