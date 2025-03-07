@@ -489,6 +489,10 @@ nav img {
     color: white;
 }
 
+.meal img {
+    height: 50%;
+}
+
 .content {
     display: none;
 }
