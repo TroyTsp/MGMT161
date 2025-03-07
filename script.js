@@ -11,5 +11,5 @@ function showDiv(mainId) {
 
 function showText() {
     document.getElementById('sensei-message').value = ''
-    document.getElementById('sensei-taxt').style.display = 'flex';
+    document.getElementById('sensei-text').style.display = 'flex';
 }
