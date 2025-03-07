@@ -55,9 +55,17 @@ h2 {
     font-size: 24px;
 }
 
+img {
+    height: 100%;
+}
+
 nav button {
     color: white;
     cursor: pointer;
+}
+
+nav img {
+    height: 75%;
 }
 
 .top-nav .left-span {
