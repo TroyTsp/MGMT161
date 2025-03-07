@@ -362,6 +362,13 @@ nav button {
     justify-content: flex-start;
 }
 
+.sensei .ai-span-2 {
+    width: 100%;
+    padding: 8px;
+    display: none;
+    justify-content: flex-start;
+}
+
 .sensei .ai-p {
     padding: 8px;
     background-color: rebeccapurple;
@@ -374,6 +381,7 @@ nav button {
 .sensei .text-span {
     width: 100%;
     padding: 8px;
+    display: none;
     justify-content: flex-end;
 }
 
