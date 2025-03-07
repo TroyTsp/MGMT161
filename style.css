@@ -88,6 +88,10 @@ nav button {
     width: 20%;
 }
 
+.bot-nav .home-button {
+    background-image: url("home.png");
+}
+
 .home .item-div {
     width: 100%;
     height: 33%;
