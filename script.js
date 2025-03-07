@@ -10,6 +10,7 @@ function showDiv(mainId) {
 }
 
 function showText() {
-    document.getElementById('sensei-message').value = ''
-    document.getElementById('sensei-text').style.display = 'flex';
+    document.getElementById('sensei-message').value = '';
+    document.querySelectorAll('sensei-text').forEach(main => {
+        main.style.display = 'flex';});
 }
