@@ -313,16 +313,6 @@ nav img {
     text-align: center;
 }
 
-.analysis .green-button {
-    width: 50%;
-    height: 16px;
-    border-style: groove;
-    border-color: black;
-    border-radius: 16px;
-    background-color: lightgreen;
-    cursor: pointer;
-}
-
 .analysis .yellow-button {
     width: 50%;
     height: 16px;
@@ -330,6 +320,16 @@ nav img {
     border-color: black;
     border-radius: 16px;
     background-color: yellow;
+    cursor: pointer;
+}
+
+.analysis .red-button {
+    width: 50%;
+    height: 16px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 16px;
+    background-color: red;
     cursor: pointer;
 }
 
