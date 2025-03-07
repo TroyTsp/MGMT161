@@ -117,12 +117,14 @@ nav img {
 .home button {
     height: 100%;
     width: 100%;
-    padding: 8px;
     border-style: groove;
     border-color: black;
     border-radius: 16px;
-    background-color: ghostwhite;
     cursor: pointer;
+}
+
+.home .button-4 {
+    background-color: #653984;
 }
 
 .track {
