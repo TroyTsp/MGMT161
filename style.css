@@ -534,5 +534,29 @@ nav img {
     border-style: groove;
     border-color: black;
     border-radius: 16px;
+    font-size: 16px;
+}
+
+.content .gray-a {
+    background-color: lightgray;
+}
+
+.content .purple-a {
+    background-color: rebeccapurple;
+}
+
+.content .white-a {
     background-color: ghostwhite;
+}
+
+.cotnent .red-a {
+    background-color: PaleVioletRed;
+}
+
+.content .green-a {
+    background-color: lightgreen;
+}
+
+.content .blue-a {
+    background-color: lightblue;
 }
