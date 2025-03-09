@@ -534,7 +534,9 @@ nav img {
     border-style: groove;
     border-color: black;
     border-radius: 16px;
-    font-size: 16px;
+    font-size: 64px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .content .gray-a {
@@ -542,11 +544,11 @@ nav img {
 }
 
 .content .purple-a {
-    background-color: rebeccapurple;
+    background-color: lightpink;
 }
 
 .content .white-a {
-    background-color: ghostwhite;
+    background-color: lightgoldenrodyellow;
 }
 
 .cotnent .red-a {
